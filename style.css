@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+.nbc{
+    width: 100vw;
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.flipkart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 50px;
+width: 50px;
+}
+#txt{
+    
+color: white;
+font-family: 'Bebas Neue', sans-serif;
+font-family: 'Comic Neue', cursive;
+font-family: 'Heebo', sans-serif;
+font-style: italic;
+font-size: 2rem;
+}
+.searchbar{
+    display: flex;
+    width: 35vw;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+.search{
+    height: 22px;
+    width: 20px;
+}
+.info{
+    display: flex;
+    width: 30vw;
+    justify-content: space-around;
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.25rem;
+
+}
+form{
+    width: 25vw;
+}
+.cart{
+    height: 25px;
+    width: 25px; 
+}
+.more{
+    height: 23px;
+    width: 23px;
+}
+
+#abc{
+    width: 50vw;
+    height: 30px;
+}
+.wallpaper{
+   
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  
+
+}
+a:hover{
+    color: black;
+
+}
+.bigpic{
+width: 72vw;
+height: 58vh;
+border: 1px solid black;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: bold;
+ margin-left: 60px;
+
+}
+.wrap{
+    display: block;
+}
+.elecproduct{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    padding: 70px;
+    gap: 30px;
+    
+
+}
+.product{
+    display: block;
+}
+.appliance{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.grocery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 70px;
+    width: 100vw;
+}
+.recent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 70px;
+    width: 100vw;
+}
+.copyright{
+    width: 100vw;
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    color: white;
+}
+
+@media(max-width:1000px){
+    .elecproduct{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .grocery{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .recent{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:720px) and (min-width:400px){
+    .nbc{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        height: 18vh;
+       padding-top: 25px ;
+       padding-bottom: 25px;
+    }
+    .logo{
+        height: 30px;
+    width: 30px;
+    }
+    #txt{
+        font-size: 2rem;
+    }
+    #abc{
+        width: 50vw;
+        height: 20px;
+    }
+    .info{
+        gap: 20px;
+    }
+    a{
+        font-size: .75rem;
+    }
+    .cart{
+        height: 18px;
+        width: 18px;
+    }
+    .more{
+    height: 17px;
+    width: 17px;
+    }
+    .search{
+        height: 12px;
+        width: 14px;
+    }
+    
+    .searchbar{
+        width: 25vw; 
+    }
+
+
+
+   
+
+
+}
+
+@media (width<=405){
+    *{
+        overflow-x:hidden;
+    }
+}
